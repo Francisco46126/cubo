@@ -1,4 +1,4 @@
-// Three.js - https://github.com/mrdoob/three.js/
+window.gameVersion = "1.0";// Three.js - https://github.com/mrdoob/three.js/
 // RoundedBoxGeometry - https://github.com/pailhead/three-rounded-box
 
 const animationEngine = ( () => {
@@ -4081,3 +4081,8 @@ class Game {
 
 window.version = '0.99.2';
 window.game = new Game();
+
+// iniciar juego
+window.addEventListener("load", () => {
+  new Game();
+});
