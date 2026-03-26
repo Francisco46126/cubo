@@ -4,12 +4,13 @@
   <head>
     <meta charset="UTF-8">
     <title>The Cube</title>
-   <link rel="stylesheet" href="style.css">
+    <meta name="viewport"><link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
   </head>
     
   <body>
-  <!-- PWA: https://bsehovac.github.io/the-cube/ -->
+  
 
 <div class="ui">
 
@@ -19,11 +20,11 @@
 
   <div class="ui__texts">
     <h1 class="text text--title">
-      <span>THE</span>
-      <span>CUBE</span>
+      THE
+      CUBE
     </h1>
     <div class="text text--note">
-      Presiona 2 veces para iniciar
+       Presiona 2 veces para iniciar
     </div>
     <div class="text text--timer">
       0:00
@@ -39,10 +40,10 @@
 
   <div class="ui__prefs">
     <range name="size" title="Tamaño del cubo" list="2,3,4,5"></range>
-    <range name="flip" title="Tipo movimiento" list="Swift&nbsp;,Smooth,Bounce"></range>
+    <range name="flip" title="Tipo movimiento" list="Rapido&nbsp;,Suave,Con rebote"></range>
     <range name="scramble" title="Longitud de la mezcla" list="20,25,30"></range>
-    <range name="fov" title="Angulo de camara" list="Ortographic,Perspective"></range>
-    <range name="theme" title="Combinacion de colores" list="Cube,Erno,Dust,Camo,Rain"></range>
+    <range name="fov" title="Longitud de la mezcla" list="Ortografico,Perspectiva"></range>
+    <range name="theme" title="Combinacion de colores" list="Cubo,Erno,Polvo,Camuflaje,LLuvia"></range>
   </div>
 
   <div class="ui__theme">
@@ -52,25 +53,25 @@
   </div>
 
   <div class="ui__stats">
-    <div class="stats" name="Tamaño cubo">
+    <div class="stats" name="cube-size">
       <i>Cubo:</i><b>3x3x3</b>
     </div>
-    <div class="stats" name="Soluciones totales ">
+    <div class="stats" name="total-solves">
       <i>Soluciones totales:</i><b>-</b>
     </div>
-    <div class="stats" name="Mejor tiempo">
+    <div class="stats" name="best-time">
       <i>Mejor tiempo:</i><b>-</b>
     </div>
-    <div class="stats" name="Peor tiempo">
+    <div class="stats" name="worst-time">
       <i>Peor tiempo:</i><b>-</b>
     </div>
-    <div class="stats" name="Promedio-5">
+    <div class="stats" name="average-5">
       <i>Promedio de 5:</i><b>-</b>
     </div>
-    <div class="stats" name="Promedio-12">
+    <div class="stats" name="average-12">
       <i>Promedio de 12:</i><b>-</b>
     </div>
-    <div class="stats" name="Promedio-25">
+    <div class="stats" name="average-25">
       <i>Promedio de 25:</i><b>-</b>
     </div>
   </div>
