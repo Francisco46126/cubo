@@ -222,13 +222,11 @@ body {
   white-space: pre-wrap;
 }
 .text--title {
-  bottom: 75%;
+  bottom: 83%;
   font-size: 4.4em;
   height: 1.2em;
 }
-.text--title span {
-  display: block;
-}
+
 .text--title span:first-child {
   font-size: 0.5em;
   margin-bottom: 0.2em;
